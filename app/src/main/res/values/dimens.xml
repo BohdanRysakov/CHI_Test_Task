@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="cloud1_width">350dp</dimen>
+    <dimen name="cloud1_height">400dp</dimen>
+    <dimen name="cloud2_width">150dp</dimen>
+    <dimen name="cloud2_height">200dp</dimen>
+    <dimen name="cloud3_width">250dp</dimen>
+    <dimen name="cloud3_height">300dp</dimen>
+    <dimen name="cloud4_width">450dp</dimen>
+    <dimen name="cloud4_height">300dp</dimen>
+    <dimen name="cloud5_width">350dp</dimen>
+    <dimen name="cloud5_height">500dp</dimen>
+    <dimen name="drop_width">30dp</dimen>
+    <dimen name="drop_height">50dp</dimen>
+</resources>
