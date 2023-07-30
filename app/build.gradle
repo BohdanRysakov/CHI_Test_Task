@@ -1,6 +1,7 @@
 plugins {
     id 'com.android.application'
     id 'org.jetbrains.kotlin.android'
+    
 }
 
 android {
@@ -8,6 +9,9 @@ android {
     compileSdk 33
     viewBinding {
         enabled = true
+    }
+    lint {
+        baseline = file("lint-baseline.xml")
     }
 
     defaultConfig {
@@ -33,6 +37,11 @@ android {
     kotlinOptions {
         jvmTarget = '1.8'
     }
+
+    buildFeatures {
+        viewBinding true
+    }
+
 }
 
 dependencies {
